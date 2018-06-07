@@ -1,0 +1,18 @@
+[submodule "OpenSfM"]
+	path = OpenSfM
+	url = https://github.com/mapillary/OpenSfM
+[submodule "OpenMVS"]
+	path = OpenMVS
+	url = https://github.com/cdcseacave/openMVS
+[submodule "VCG"]
+	path = VCG
+	url = https://github.com/cdcseacave/VCG
+[submodule "eigen"]
+	path = eigen
+	url = https://github.com/eigenteam/eigen-git-mirror
+[submodule "ceres-solver"]
+	path = ceres-solver
+	url = https://github.com/ceres-solver/ceres-solver
+[submodule "OpenGV"]
+	path = OpenGV
+	url = https://github.com/laurentkneip/opengv
