@@ -10,3 +10,6 @@
 [submodule "example/sceaux-castle"]
 	path = example/sceaux-castle
 	url = https://github.com/openMVG/ImageDataset_SceauxCastle
+[submodule "OpenGV"]
+	path = OpenGV
+	url = https://github.com/paulinus/opengv
