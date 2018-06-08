@@ -1,13 +1,5 @@
 FROM diluka/sfm-base
 
-# Install OpenGV
-ADD OpenGV /opt/OpenGV
-RUN mkdir -p /opt/OpenGV_build \
-    && cd /opt/OpenGV_build \
-    && cmake . /opt/OpenGV/ -DBUILD_TESTS=OFF -DBUILD_PYTHON=ON \
-    && make -j && make install \
-    && rm -rf /opt/OpenGV_build
-
 ADD OpenSfM /opt/OpenSfM
 
 RUN cd /opt/OpenSfM && \
