@@ -14,6 +14,8 @@ RUN mkdir -p /opt/OpenMVS_build \
     && make -j && make install \
     && rm -rf /opt/OpenMVS_build
 
+ADD pipeline.py /usr/local/bin
+
 WORKDIR /root
 
 ENV PATH $PATH:/usr/local/bin/OpenMVS:/opt/OpenSfM/bin
